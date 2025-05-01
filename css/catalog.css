@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #4d6a5e;
+    font-size: 20px;
+}
+
+.header {
+    background-color: #f2efe4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 75px;
+    width: 100%;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+    color: #2b2b2b;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav a {
+    color: #2b2b2b;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    padding: 8px 12px; 
+    border: 2px solid transparent; 
+    border-radius: 15px; 
+    background-color: #f2efe4; 
+}
+
+.nav a:hover {
+    color: #4d6a5e;
+    background-color: #2b2b2b;
+    border-color: #2b2b2b;
+    transform: scale(1.1);
+}
+
+.cart-btn {
+    background-color: #2b2b2b;
+    color: #f2efe4;
+    border: 2px solid #2b2b2b; 
+    padding: 12px 28px;
+    border-radius: 18px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .cart-btn:hover {
+    background-color: #2b2b2b;
+    color: #4d6a5e;
+    transform: scale(1.1);
+    border-color: #2b2b2b;
+  }
+  
+
+.login-btn {
+    background-color: #2b2b2b;
+    color: #f2efe4;
+    border: 2px solid #2b2b2b; 
+    padding: 12px 28px;
+    border-radius: 18px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #2b2b2b;
+    color: #4d6a5e;
+    transform: scale(1.1);
+    border-color: #2b2b2b;
+}
+
+.main-section {
+    background-color: #4d6a5e;
+    color: #f2efe4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 80px 40px;
+    height: 100vh;
+    text-align: center;
+}
+
+.text-content h1 {
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #f2efe4;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+
+.text-content h1:hover {
+    color: #2b2b2b;
+    transform: scale(1.1);
+}
+
+.catalog {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 40px;
+    padding: 0 20px;
+}
+
+.catalog-item {
+    background-color: #f2efe4;
+    color: #2b2b2b;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catalog-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.catalog-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.catalog-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.catalog-item p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    flex-grow: 1;
+}
+
+.catalog-item .more-btn {
+    background-color: #2b2b2b;
+    color: #f2efe4;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 18px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: auto;
+}
+
+.catalog-item .more-btn:hover {
+    background-color: #2b2b2b;
+    color: #4d6a5e;
+    transform: scale(1.1);
+    border-color: #2b2b2b;
+}
+
+
+.btn-add-product {
+    display: inline-block;
+    background-color: #2b2b2b;
+    color: #f2efe4;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+    border: 2px solid #2b2b2b; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-add-product:hover {
+    background-color: #2b2b2b;
+    color: #4d6a5e;
+    transform: scale(1.1);
+    border-color: #2b2b2b;
+  }

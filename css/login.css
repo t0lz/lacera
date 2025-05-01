@@ -1,0 +1,124 @@
+body {
+    background-color: #4d6a5e;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    background-color: #f2efe4;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 380px;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2b2b2b;
+  }
+  
+  .login-form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #2b2b2b;
+  }
+  
+  .login-form input[type="email"],
+  .login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #2b2b2b;
+    border-radius: 8px;
+    background-color: #f2efe4;
+    font-size: 16px;
+  }
+  
+  .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 10px; 
+    font-size: 14px;
+  }
+  
+  .remember-forgot label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #2b2b2b;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #2b2b2b;
+    color: #f2efe4;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .login-btn:hover {
+    background-color: #4d6a5e;
+    color: #f2efe4;
+  }
+  
+  .register-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .register-link a {
+    text-decoration: none;
+    color: #4d6a5e;
+    font-weight: bold;
+  }
+  
+  .back-arrow {
+    position: absolute;
+    top: 287px;
+    right: 735px;
+    font-size: 10px;
+    color: #f2efe4;
+    text-decoration: none;
+    background-color: #2b2b2b;
+    padding: 8px 8px;
+    border-radius: 50%;
+    transition: all 0.3s ease; 
+  }
+  
+  .back-arrow:hover {
+    background-color: #4d6a5e; 
+    color: #f2efe4; 
+    transform: scale(1.2); 
+  }
+  
+  .error-message {
+    color: #ff0000;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #ffeeee;
+    border: 1px solid #ffcccc;
+    border-radius: 4px;
+}
+
+.success-message {
+    color: #008000;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #eeffee;
+    border: 1px solid #ccffcc;
+    border-radius: 4px;
+}
+  
+  
+  
+  
